@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #27234b;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    width: 15rem;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 3px solid  rgb(40, 248, 127);
+    background: radial-gradient(circle, #1c069b,  rgba(40, 248, 127, 0.397));
+    z-index: 1;
+
+}
+
+nav img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin-left: 25px;
+}
+
+nav ul li {
+    width: 9rem;
+    margin: 15px -3px;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: rgb(40, 248, 127);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.container {
+    margin-left: 10rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.inicio {
+    padding: 15rem 15rem;
+    width: auto;
+    height: 25rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inicio h1 {
+    font-size: 5rem;
+    color:  rgb(40, 248, 127)
+
+}
+
+
+.inicio h2 {
+    font-size: 3rem;
+    color:  rgb(216, 130, 1);
+    padding-left: 8rem;
+}
+
+.sobre-mi {
+    margin-top: 30rem;
+    padding:  15rem 15rem;
+    height: 30rem;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30rem;
+}
+
+.sobre-mi h3 {
+    color:  rgb(40, 248, 127);
+    font-size: 3rem;
+}
+
+.sobre-mi p {
+    color:  rgb(139, 167, 209);
+    padding-left: 50px;
+    font-size: 2rem;
+}
+
+.lenguajes {
+    padding: 10rem 15rem;
+    font-size: 3rem;
+    color: rgb(40, 248, 127);
+}
+
+.lenguajes h5 {
+    color: rgb(216, 130, 1);;
+}
+
+.lenguajes ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.lenguajes ul li {
+    padding: 25px;
+}
+
+.htmlimg {
+    height: 35px;
+}
+
+.cssimg {
+    height: 35px;
+}
+
+.javaimg{
+    height: 38px;
+}
+
+.mysqlimg {
+    height: 3rem;
+}
+
+.phpimg {
+    height: 2rem;
+    margin-top: 15px;
+}
+
+.visualimg{
+    margin-top: 10px;
+}
+
+.postmanimg {
+    height: 3rem;
+
+}
+
+.pgadminimg {
+    height: 3rem;
+}
+
+.educacion {
+    padding: 15rem 15rem;
+    font-size: 3rem;
+    color: rgb(40, 248, 127);
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.educacion p {
+    color: rgb(139, 167, 209);
+    padding-left: 50px;
+    font-size: 2rem;
+}
+
+.contacto {
+    font-size: 3rem;
+    height: auto;
+    margin-top: 30rem;
+    padding: 5rem 15rem;
+    color: rgb(139, 167, 209);
+}
+
+.contacto h3 {
+    color: rgb(40, 248, 127);;
+}
+
+.contacto ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacto ul li {
+    font-size: 30px;
+    margin: 70px;
+}
+
+li i {
+    margin-right: 15px;
+    color:  rgb(255, 153, 1);
+}
+
+li a {
+    font-size: 40px;
+    color: rgb(139, 167, 209)
+}
+
+
+.transition:hover {
+    transition: cubic-bezier(.07, 1.41, .85, 1.41) 3s;
+    transform: scale(1.20);
+}
+
+.transition a:hover {
+    color:  rgb(255, 153, 1);
+}
+
+.transition-2:hover {
+    transition: cubic-bezier(.07, 1.41, .85, 1.41) 5s;
+    transform: scale(1.08);
+}
+
+nav ul li a.activo {
+    color:  rgb(255, 153, 1);
+}
+
+@media (max-width: 480px) {
