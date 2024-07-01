@@ -164,6 +164,15 @@ nav ul li a {
     font-size: 2rem;
 }
 
+.proyectos {
+    padding: 15rem 15rem;
+    font-size: 3rem;
+    color: rgb(40, 248, 127);
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+
 .contacto {
     font-size: 3rem;
     height: auto;
