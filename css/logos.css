@@ -1,0 +1,43 @@
+.htmlimg {
+    height: 3rem;
+}
+
+.cssimg {
+    height: 3rem;
+}
+
+.javaimg{
+    height: 3rem;
+}
+
+.phpimg {
+    height: 4rem;
+}
+.nodeimg {
+    height: 3rem;
+}
+
+.mysqlimg {
+    height: 3rem;
+}
+
+.visualimg{
+    margin-top: 10px;
+    height: 3rem;
+}
+
+.postmanimg {
+    height: 4rem;
+
+}
+
+.pgadminimg {
+    height: 4rem;
+}
+
+
+.githubimg {
+    height: 6rem;
+    background-color: rgb(232, 147, 11);
+    border-radius: 5px;
+}

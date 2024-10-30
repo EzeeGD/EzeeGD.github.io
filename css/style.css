@@ -1,196 +1,170 @@
-body {
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background: #27234b;
-    font-family: 'Poppins', sans-serif;
+    font-family: "popins", sans-serif;
+    width: 100%;
+    height: 100%;
 }
 
-a {
+a{
     text-decoration: none;
+    color: white;
 }
 
-ul {
+ul{
     list-style: none;
 }
-
-nav {
+/* menu */
+nav{
     width: 15rem;
-    height: 100%;
+    height: 100vh;
     display: flex;
     position: fixed;
+    top: 0;
     flex-direction: column;
     justify-content: center;
     border-right: 3px solid  rgb(40, 248, 127);
     background: radial-gradient(circle, #1c069b,  rgba(40, 248, 127, 0.397));
-    z-index: 1;
-
 }
 
-nav img {
+.foto img {
     border-radius: 50%;
     width: 180px;
     height: 180px;
-    margin-left: 25px;
+    margin: 25px;
 }
 
-nav ul li {
-    width: 9rem;
-    margin: 15px -3px;
-    padding: 10px;
+.atajos ul li{
+        width: 9rem;
+        margin: 15px -3px;
+        padding: 10px;
 }
 
-nav ul li a {
+.atajos ul li a{
     color: rgb(40, 248, 127);
     font-size: 15px;
     font-weight: bold;
 }
 
-.container {
-    margin-left: 10rem;
-    height: auto;
+
+
+section{
     display: flex;
     flex-direction: column;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 15rem;
+    max-width: 1800px;
+    min-width: 800px;
 }
 
-.inicio {
-    padding: 15rem 15rem;
-    width: auto;
-    height: 25rem;
+.home{
+    max-width: 100%;
+    transition: all 0.3s ease;
+}
+.home-text{
+    margin: 15rem 10rem;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.inicio h1 {
+.home h1{
     font-size: 5rem;
     color:  rgb(40, 248, 127)
-
 }
 
-
-.inicio h2 {
+.home h2{
     font-size: 3rem;
     color:  rgb(216, 130, 1);
-    padding-left: 8rem;
 }
 
-.sobre-mi {
-    margin-top: 30rem;
-    padding:  15rem 15rem;
-    height: 30rem;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 30rem;
+.my {
+    margin: 5rem 0;
+    max-width: 100%;
+    transition: all 0.3s ease;
 }
 
-.sobre-mi h3 {
+.my-text{
+    margin: 10rem;
+}
+
+.my h2 {
     color:  rgb(40, 248, 127);
     font-size: 3rem;
+    padding-bottom: 5rem;
 }
 
-.sobre-mi p {
+.my p {
     color:  rgb(139, 167, 209);
-    padding-left: 50px;
     font-size: 2rem;
+    padding: 2rem 5rem;
 }
 
-.lenguajes {
-    padding: 10rem 15rem;
+.languages {
+    margin: 5rem 0;
     font-size: 3rem;
     color: rgb(40, 248, 127);
 }
 
-.lenguajes h5 {
+.languages-content{
+    margin: 10rem;
+}
+
+.languages h3 {
     color: rgb(216, 130, 1);;
-}
-
-.lenguajes ul {
-    display: inline-flex;
-    flex-wrap: wrap;
-}
-
-.lenguajes ul li {
-    padding: 25px;
-}
-
-.htmlimg {
-    height: 35px;
-}
-
-.cssimg {
-    height: 35px;
-}
-
-.javaimg{
-    height: 38px;
-}
-
-.mysqlimg {
-    height: 3rem;
-}
-
-.phpimg {
-    height: 2rem;
-    margin-top: 15px;
-}
-
-.visualimg{
-    margin-top: 10px;
-}
-
-.postmanimg {
-    height: 3rem;
-
-}
-
-.pgadminimg {
-    height: 3rem;
-}
-
-.educacion {
-    padding: 15rem 15rem;
-    font-size: 3rem;
-    color: rgb(40, 248, 127);
-    margin-top: 20rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.educacion p {
-    color: rgb(139, 167, 209);
-    padding-left: 50px;
     font-size: 2rem;
 }
 
-.proyectos {
-    padding: 15rem 15rem;
-    font-size: 3rem;
-    color: rgb(40, 248, 127);
-    margin-top: 20rem;
+.languages ul {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 8rem 0;
 }
 
-.contacto {
+.education {
     font-size: 3rem;
-    height: auto;
-    margin-top: 30rem;
-    padding: 5rem 15rem;
+    color: rgb(40, 248, 127);
+    margin: 10rem;
+}
+
+.education p {
+    color: rgb(139, 167, 209);
+    padding: 1rem 5rem;
+    font-size: 2rem;
+}
+
+.certificados {
+    font-size: 2rem;
+    color: rgb(216, 130, 1);
+    margin: 5rem 0;
+}
+
+.projects {
+    margin: 10rem;
+    font-size: 3rem;
+    color: rgb(40, 248, 127);
+}
+
+.contact {
+    font-size: 3rem;
+    margin: 10rem;
     color: rgb(139, 167, 209);
 }
 
-.contacto h3 {
-    color: rgb(40, 248, 127);;
+.contact h2 {
+    color: rgb(40, 248, 127);
 }
 
-.contacto ul {
+.contact ul {
     display: flex;
     flex-wrap: wrap;
 }
 
-.contacto ul li {
+.contact ul li {
     font-size: 30px;
     margin: 70px;
 }
@@ -201,7 +175,7 @@ li i {
 }
 
 li a {
-    font-size: 40px;
+    font-size: 50px;
     color: rgb(139, 167, 209)
 }
 
@@ -223,5 +197,3 @@ li a {
 nav ul li a.activo {
     color:  rgb(255, 153, 1);
 }
-
-@media (max-width: 480px) {

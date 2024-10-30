@@ -1,86 +1,123 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi portafolio</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/logos.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+    <script src="/js/script.js"></script>
 </head>
-
 <body>
-    <nav class="navbar">
-        <img src="assets/Logo.jpg" class="Logo">
+    <nav>
+        <div class="foto">
+            <img src="assets/Logo.jpg" alt="">
+        </div>
+        <div class="atajos">
             <ul>
-                <li class="transition"><i class="fas fa-home"></i><a href="#inicio">INICIO</a></li>
-                <li class="transition"><i class="fa-solid fa-user"></i><a href="#sobre-mi">SOBRE MI</a></li>
-                <li class="transition"><i class="fa-solid fa-laptop-code"></i><a href="#lenguajes">LENGUAJES</a></li>
-                <li class="transition"><i class="fa-solid fa-graduation-cap"></i><a href="#educacion">EDUCACION</a></li>
-                <li class="transition"><i class="fa-solid fa-briefcase"></i><a href="#proyectos">PROYECTOS</a></li>
-                <li class="transition"><i class="fas fa-contact-book"></i><a href="#contacto">CONTACTO</a></li>
+            <li class="transition"><i class="fas fa-home"></i><a href="#home">INICIO</a></li>
+            <li class="transition"><i class="fa-solid fa-user"></i><a href="#my">SOBRE MI</a></li>
+            <li class="transition"><i class="fa-solid fa-laptop-code"></i><a href="#languages">LENGUAJES</a></li>
+            <li class="transition"><i class="fa-solid fa-graduation-cap"></i><a href="#education">EDUCACION</a></li>
+            <li class="transition"><i class="fa-solid fa-briefcase"></i><a href="#projects">PROYECTOS</a></li>
+            <li class="transition"><i class="fas fa-contact-book"></i><a href="#contact">CONTACTO</a></li>
             </ul>
+        </div>
+        <!-- <div class="traductor">
+            <button></button>
+        </div> -->
     </nav>
-    <div class="container">
-        <div id="inicio" class="inicio">
-            <h1>Ezequiel Guardia</h1>
-            <h2>Desarrollador Web</h2>
-        </div>
-        <div id="sobre-mi" class="sobre-mi">
-            <h3>SOBRE MI</h3>
-            <p>¡Hola! Soy Damian Ezequiel Guardia, originario de Buenos Aires, Argentina. Con 28 años, estoy felizmente en pareja y soy padre de una hermosa hija. 
-                Me caracterizo por ser una persona tranquila y paciente. En mi tiempo libre, disfruto tocando la guitarra y el piano, además de practicar natación.
-
-                Mi pasión por el aprendizaje es constante, y actualmente aspiro a convertirme en un Desarrollador Full Stack. Estoy decidido a trabajar arduamente 
-                para alcanzar esta meta y seguir creciendo profesionalmente. ¡Gracias por conocer un poco más sobre mí!
-            </p>
-        </div>
-        <div id="lenguajes" class="lenguajes">
-            <h4>LENGUAJES DE PROGRAMACIÓN</h4>
-            <ul>
-                <li><img class="htmlimg transition" src="assets/HTML5.svg"></li>
-                <li><img class="cssimg transition" src="assets/CSS3.svg"></li>
-                <li><img class="javaimg transition" src="assets/javascript.svg"></li>
-                <li><img class="mysqlimg transition" src="assets/Mysql.png"></li>
-                <li><img class="phpimg transition" src="assets/PHP.png"></li>
-            </ul>
-            <h5>HERRAMIENTAS</h5>
-            <ul>
-                <li><img class="visualimg transition" src="assets/vc.svg"></li>
-                <li><img class="postmanimg transition" src="assets/postman.png"></li>
-                <li><img class="pgadminimg transition" src="assets/pgadmin.png"></li>
-            </ul>
-        </div>
-        <div id="educacion" class="educacion">
-            <h3>EDUCACIÓN</h3>
-            <P>
-                Soy estudiante en Teclab, inmerso en la emocionante carrera de Programación, la cual inicié el 28 de marzo de 2022. Además de mi formación académica, 
-                he complementado mis conocimientos con cursos de Movistar relacionado al mundo de la programacion. Estoy comprometido con mi desarrollo, explorando de manera didáctica diversas fuentes para
-                mejorar constantemente mis habilidades en este apasionante campo.
-                Tambien Estoy cursando Node.js Full-Stack en Codo a Codo
-            </P>
-            <div class="certificados">
-                
+    <section>
+        <div class="home" id="home">
+            <div class="home-text">
+                <h1>Ezequiel Guardia</h1>
+                <h2>Desarrollador Web</h2>
             </div>
         </div>
-        <div id="proyectos" class="proyectos">
-            <h3>PROYECTOS</h3>
+        <div class="my" id="my">
+            <div class="my-text">
+                <h2>Sobre Mí</h2>
+                <p>
+                    ¡Hola! Mi nombre es Damian Ezequiel Guardia, soy de Buenos
+                    Aires, Argentina. Tengo 28 años y estoy felizmente en pareja
+                    y soy padre de una hermosa hija. Me caracterizo por ser
+                    resolutivo, eficaz y paciente. En mi tiempo libre, disfruto
+                    pasar tiempo en familia, y mis hobbies son tocar la
+                    guitarra, el piano, y también me gusta practicar natación.
+                </p>
+                <p>
+                    Mi pasión por el aprendizaje es constante, y actualmente aspiro a convertirme en un Desarrollador Full Stack. Estoy decidido a trabajar arduamente 
+                    para alcanzar esta meta y seguir creciendo profesionalmente. ¡Gracias por conocer un poco más sobre mí!
+                </p>
+            </div>
         </div>
-        <div id="contacto" class="contacto">
-            <h3>CONTACTO</h3>
+        <div class="languages" id="languages">
+            <div class="languages-content">
+                <h2>Conocimientos en Lenguajes</h2>
+                <ul>
+                    <li><img class="htmlimg transition" src="assets/HTML5.svg" alt="logo html"></li>
+                    <li><img class="cssimg transition" src="assets/CSS3.svg" alt="logo css"></li>
+                    <li><img class="javaimg transition" src="assets/javascript.svg" alt="logo js"></li>
+                    <li><img class="phpimg transition" src="assets/PHP.png" alt="logo php"></li>
+                    <li><img class="nodeimg transition" src="assets/nodejs.png" alt="logo node"></li>
+                </ul>
+                <h3>Herramientas y Tecnologías</h3>
+                <ul>
+                    <li><img class="visualimg transition" src="assets/vc.svg" alt="logo vs"></li>
+                    <li><img class="postmanimg transition" src="assets/postman.png" alt="logo postman"></li>
+                    <li><img class="pgadminimg transition" src="assets/pgadmin.png" alt="logo pgadmin"></li>
+                    <li><img class="mysqlimg transition" src="assets/Mysql.png" alt="logo mysql"></li>
+                    <li><img class="githubimg transition" src="assets/github.png" alt="logo github"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="education" id="education">
+            <div class="education-text">
+                <h2>Educación</h2>
+                <p>
+                    Fui estudiante en Teclab, inmerso en la emocionante carrera de Programación, la cual inicié el 28 de marzo de 2022 y finalice en marzo de 2024.
+                </p>
+                <p>
+                    Además de mi formación académica, he complementado mis conocimientos con cursos de Movistar relacionado al mundo de la programacion.
+                </p>
+                <p>
+                    Estoy comprometido con mi desarrollo, explorando de manera didáctica diversas fuentes para mejorar constantemente mis habilidades en este apasionante campo.
+                </p>
+                <p>
+                    Tambien curse Node.js Full-Stack en Codo a Codo en marzo de 2024 finalizado en julio de 2024
+                </P>
+            </div>
+            <div class="certificados">
+                <h2>Cetificados</h2>
+                <div class="cert-content">
+                    <iframe src="assets/Titulo en Tramite.pdf" frameborder="1" height="360px" width="400px"></iframe>
+                    <iframe src="assets/FT AR - Certificado (1).pdf" frameborder="1" height="360px" width="400px"></iframe>
+                    <iframe src="assets/FT AR - Certificado (2).pdf" frameborder="1" height="360px" width="400px"></iframe>
+                    <iframe src="assets/FT AR - Certificado (3).pdf" frameborder="1" height="360px" width="400px"></iframe>
+                    <iframe src="assets/FT AR - Certificado (4).pdf" frameborder="1" height="360px" width="400px"></iframe>
+                    <iframe src="assets/Diploma_CAC.pdf" frameborder="1" height="360px" width="400px"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="projects" id="projects">
+            <div class="projects-content"></div>
+            <h2>Projectos</h2>
+        </div>
+        <div class="contact" id="contact">
+            <h2>Contacto</h2>
             <ul>
                 <li class="transition-2"><i class="fa-solid fa-mobile-screen-button"></i>+54-11-5972-1146</li>
                 <li class="transition-2"><i class="fa-solid fa-envelope"></i>ezequiel.guardia413@gmail.com</li>
-                <li class="transition-2"><a href="https://www.linkedin.com/in/ezequiel-guardia-5a2516275/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="transition-2"><a href="https://www.linkedin.com/in/ezequiel-guardia/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
                 <li class="transition-2"><a href="https://github.com/EzeeGD" target="_blank"><i class="fa-brands fa-square-github"></i></a></li>
                 <li class="transition-2"><a href="#"><i class="fa-solid fa-file-pdf"></i>CV</a></li>
             </ul>
         </div>
-    </div>
-
-    <script src="js/script.js"></script>
+    </section>
 </body>
 </html>

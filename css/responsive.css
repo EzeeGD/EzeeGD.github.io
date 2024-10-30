@@ -1,0 +1,65 @@
+@media only screen and (max-width: 600px) {
+
+    body {
+        height: 100%;
+        width: 100%;
+    }
+
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15rem;
+        width: 100%;
+        border-bottom:3px solid  rgb(40, 248, 127);
+        position: absolute;
+        border-right: none;
+        z-index: 0;
+    }
+
+    .atajos {
+        display: none;
+    }
+
+    section {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 80%;
+    }
+
+    .home{
+        width: auto;
+        padding: 0;
+        margin-top: 20rem;
+        text-align: center;
+    }
+
+    .my{
+        padding: 5px 5px;
+        /* text-align: center; */
+        height: auto;
+        margin-top: 10rem;
+    }
+
+    .languages{
+        padding: 0;
+        margin: 0;
+    }
+
+    .education{
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .projects{
+        padding: 0;
+        margin: 0;
+    }
+
+    .contact {
+        padding: 0;
+        margin: 0;
+    }
+}
