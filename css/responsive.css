@@ -14,9 +14,7 @@
         height: 15rem;
         width: 100%;
         border-bottom:3px solid  rgb(40, 248, 127);
-        position: absolute;
         border-right: none;
-        z-index: 0;
     }
 
     .atajos {
