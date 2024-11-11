@@ -8,13 +8,12 @@
     }
 
     nav{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 15rem;
         width: 100%;
-        border-bottom:3px solid  rgb(40, 248, 127);
+        height: 15rem;
+        position: relative;
+        flex-direction: row;
         border-right: none;
+        border-bottom: 3px solid rgb(40, 248, 127);
     }
 
     .atajos {
@@ -54,7 +53,7 @@
     .my{
         margin-top:10rem;
         width: 100%;
-        padding-left: 10px;
+        /* padding-left: 10px; */
         font-size: 2rem;
     }
 
@@ -62,11 +61,22 @@
         margin: 0;
     }
 
+    .my-text h2 {
+        margin: 0;
+        padding: 15px 0;
+    }
+
+    .my-text p {
+        font-size: 20px;
+        margin: 0;
+        padding: 10px;
+    }
+
     .languages{
         padding: 0;
         margin: 0;
         width: 100%;
-        padding-left: 10px;
+        /* padding-left: 10px; */
         font-size: 2rem;
     }
 
@@ -74,12 +84,28 @@
         margin: 0;
     }
 
+    .languages-content ul{
+      padding: 15px;
+      margin: 0;
+    }
+
+    .languages-content ul li{
+        padding: 15px;
+      }
+
     .education{
-        padding-left: 10px;
+        /* padding-left: 10px; */
         margin: 0;
         width: 100%;
         font-size: 2rem;
     }
+
+    .education p{
+        padding: 10px;
+        margin: 0;
+        font-size: 20px;
+    }
+
 
     .cert-content{
         display: flex;
@@ -87,15 +113,20 @@
         justify-content: center;
     }
 
+    .cert-content iframe{
+        height: 300px;
+        width: 300px;
+        margin: 10px 0;
+    }
+
     .projects{
-        padding-left: 10px;
         margin: 0;
         width: 100%;
         font-size: 2rem;
     }
 
     .contact {
-        padding-left: 10px;
+        /* padding-left: 10px; */
         margin: 0;
         width: 100%;
         font-size: 2rem;
@@ -106,7 +137,35 @@
     }
 
     .contact ul li{
-        margin: 30px 0;
-        font-size: 25px;
+        margin: 15px 0;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .contact h2{
+        padding-left: 10px;
+    }
+
+    .languages h2{
+        padding-left: 10px;
+    }
+
+    .education h2{
+        padding-left: 10px;
+    }
+    .my h2{
+        padding-left: 10px;
+    }
+
+    .certificate h2{
+        padding-left: 10px;
+    }
+
+    h3{
+        padding-left: 10px;
+    }
+
+    .projects h2{
+        padding-left: 10px;
     }
 }
